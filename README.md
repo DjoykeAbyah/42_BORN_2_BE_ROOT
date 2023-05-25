@@ -2,7 +2,7 @@
 
 🚀 This project aims to introduce you to the wonderful world of virtualization. 
 Creating a virtual machine in VirtualBox under specific instructions. And setting up your own operating system while implementing strict rules.
-Since it is a matter of setting up a server, you will install the minimum of services. For this reason, a graphical interface is of no use here. ❌
+Since it is a matter of setting up a server, I was allowed to only install the minimum of services. For this reason, a graphical interface is of no use here. ❌
 
 - I chose the latest stable version of Debian 🐧
 - I had to at least create 2 encrypted partitions using LVM. 🔒
