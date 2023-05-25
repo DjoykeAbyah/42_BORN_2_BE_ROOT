@@ -33,14 +33,14 @@ To set up a strong password policy, there were the following requirements:
 - Your password has to expire every 30 days. 🔄
 - The minimum number of days allowed before the modification of a password will be set to 2. ⏳
 - The user has to receive a warning message 7 days before their password expires. ⚠️
-- Your password must be at least 10 characters long. It must contain an uppercase letter, a lowercase letter, and a number. Also, it must not contain more than 3 consecutive identical characters. 🔒
+- The password must be at least 10 characters long. It must contain an uppercase letter, a lowercase letter, and a number. Also, it must not contain more than 3 consecutive identical characters. 🔒
 - The password must not include the name of the user. 🔒
 - The following rule does not apply to the root password: The password must have at least 7 characters that are not part of the former password. 🔒
 - Of course, your root password has to comply with this policy. 🔒
 
-After setting up your configuration files, you will have to change all the passwords of the accounts present on the virtual machine, including the root account. 🔒
+After setting up your configuration files, I had to change all the passwords of the accounts present on the virtual machine, including the root account. 🔒
 
-To set up a strong configuration for your sudo group, you have to comply with the following requirements:
+To set up a strong configuration for my sudo group, I had to comply with the following requirements:
 
 - Authentication using sudo has to be limited to 3 attempts in the event of an incorrect password. 🔒
 - A custom message of your choice has to be displayed if an error due to a wrong password occurs when using sudo. ⚠️
@@ -48,9 +48,10 @@ To set up a strong configuration for your sudo group, you have to comply with th
 - The TTY mode has to be enabled for security reasons. 🔒
 - For security reasons too, the paths that can be used by sudo must be restricted. 🔒
 
-Finally, you have to create a simple script called `monitoring.sh`. It must be developed in bash. At server startup, the script will display some information (listed below) on all terminals every 10 minutes (take a look at `wall`). The banner is optional. No error must be visible.
+Finally, I had to create a simple script called `monitoring.sh`. It must be developed in bash. 
+At server startup, the script will display some information (listed below) on all terminals every 10 minutes.
 
-Your script must always be able to display the following information:
+The script must always be able to display the following information:
 
 - The architecture of your operating system and its kernel version. 💻
 - The number of physical processors. ⚙️
@@ -65,27 +66,10 @@ Your script must always be able to display the following information:
 - The IPv4 address of your server and its MAC (Media Access Control) address. 🌐
 - The number of commands executed with the sudo program. 🛡️
 
-During the defense, you will be asked to explain how this script works. You will also have to interrupt it without modifying it. Take a look at `cron`. ⏲️
+During the defense I had to explain how this script works, and interrupt it without modifying it. ⏲️
 
 ## Chapter V: Bonus part
 
 Bonus list:
 
 - Set up partitions correctly so you get a structure similar to the one below:
-- Set up a functional WordPress website with the following services: lighttpd, MariaDB, and PHP.
-- Set up a service of your choice that you think is useful (NGINX / Apache2 excluded!). During the defense, you will have to justify your choice.
-
-## Commands for Checking Requirements
-
-For Rocky:
-```shell
-# Check requirements for Rocky
-
-
-
-
-
-Regenerate response
-Send a message...
-
-Free Research Preview. ChatGPT may produce inaccurate information about people, places, or facts. ChatGPT May 12 Version
