@@ -7,7 +7,7 @@ Since it is a matter of setting up a server, you will install the minimum of ser
 - I chose the latest stable version of Debian 🐧
 - I had to at least create 2 encrypted partitions using LVM. 🔒
 
-## Born2beRoot
+## About
 
 During the defense, I was asked a few questions about the operating system I chose. For instance, you should know the differences between aptitude and apt, or what SELinux or AppArmor is. In short, understand what you use! 💡
 
