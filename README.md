@@ -1,18 +1,8 @@
-# Introduction
+# Born_2_Be_Root
 
 🚀 This project aims to introduce you to the wonderful world of virtualization. 
-Creating a virtual machine in VirtualBox (or UTM if you can’t use VirtualBox) under specific instructions. 
-And setting up your own operating system while implementing strict rules.
-
-## Chapter III: General guidelines
-
-- The use of VirtualBox is mandatory. 💻
-
-## Chapter IV: Mandatory part
-
-This project consists of having you set up your first server by following specific rules. 
-Since it is a matter of setting up a server, you will install the minimum of services. 
-For this reason, a graphical interface is of no use here. It is therefore forbidden to install X.org or any other equivalent graphics server. ❌
+Creating a virtual machine in VirtualBox under specific instructions. And setting up your own operating system while implementing strict rules.
+Since it is a matter of setting up a server, you will install the minimum of services. For this reason, a graphical interface is of no use here. It is therefore forbidden to install X.org or any other equivalent graphics server. ❌
 
 - I chose the latest stable version of Debian 🐧
 - I had to at least create 2 encrypted partitions using LVM. 🔒
@@ -68,7 +58,7 @@ The script must always be able to display the following information:
 
 During the defense I had to explain how this script works, and interrupt it without modifying it. ⏲️
 
-## Chapter V: Bonus part
+## Bonus part
 
 Bonus list:
 
