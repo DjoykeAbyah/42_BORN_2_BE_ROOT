@@ -38,7 +38,7 @@ To set up a strong configuration for my sudo group, I had to comply with the fol
 - The TTY mode has to be enabled for security reasons. 🔒
 - For security reasons too, the paths that can be used by sudo must be restricted. 🔒
 
-Finally, I had to create a simple script called `monitoring.sh` in Bash. It must be developed in bash. 
+Finally, I had to create a simple script called `monitoring.sh`. It must be developed in Bash. 
 At server startup, the script will display some information (listed below) on all terminals every 10 minutes.
 
 The script must always be able to display the following information:
